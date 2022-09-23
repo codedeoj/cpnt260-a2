@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Card</title>
+  <style>
+    body {
+      font-family:"Lato", Arial, sans-serif;
+      margin: 0.5rem;
+      line-height: 1.25;
+      font-size: 1.3rem;
+      background-color: #333;
+    }
+    /* Card Styles*/
+    .container {
+      border: 1px solid red;
+      width: 70%;
+      max-width: 40ch;
+      margin: 25px auto;
+      border: 1px solid #999;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0px 0px 5px 0px inset #555;
+      cursor: pointer;
+    }
+
+    .container:hover {
+      box-shadow: 0px 0px 12px 0px #999;
+    }
+
+    /* Link */
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    /* Heading */
+    h3 {
+      margin: 0;
+      text-align: center;
+    }
+
+    span {
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      display: block;
+      font-weight: 700;
+      text-align: center;
+      padding-top: 20px;
+      color: #1e5f05;
+    }
+
+    /* Image */
+    img {
+      display: block;
+      margin: 25px auto;
+      margin-top: 15px;
+    }
+
+    figure {
+      margin: 0 30px;
+    }
+
+    figcaption {
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      font-size: 20px;
+      width: 90%;
+      margin: auto;
+      color: #333;
+    }
+
+    /* Card Icons */
+    .skills-icon {
+      font-size: 1rem;
+      text-align: center;
+      padding: 10px 10px;
+      color: #fff;
+    }
+
+    .skills-icon img {
+      display: inline-block;
+      width: 80px;
+      padding: 6px;
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <article class="container">
+    <a href="https://flyff.fandom.com/wiki/Ranger">
+    <span>Class</span>
+    <h3>Ranger</h3>
+    <figure>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj39y_OCoEZ49fqBv0O2nczUV-k-yytHNBzA&usqp=CAU" width="70%" height="100%" alt="Ranger Class">
+     <figcaption>Rangers use <strong>bows</strong> to inflict damage as well as to render enemy strategies useless. They utilize the powers of nature in their attacks, such as creating Fire Arrows to singe flesh and Poison Arrows to inject toxic acids into foes.</figcaption>
+    </figure>
+  <div class="skills-icon">
+    <img src="https://cdn-icons-png.flaticon.com/512/3548/3548298.png" alt="">
+    <img src="https://cdn-icons-png.flaticon.com/512/3548/3548562.png" alt="">
+    <img src="https://cdn-icons-png.flaticon.com/512/3548/3548673.png" alt="">
+  </div>
+</a>
+</article>
+</body>
+</html>
